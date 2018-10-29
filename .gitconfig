@@ -1,0 +1,20 @@
+[user]
+	name = kondo
+	email = kondo@forgevision.com
+[alias]
+	a = add
+	b = branch -v
+	br = branch -av
+	ci = commit
+        co = checkout
+        st = status
+	logg = log --graph --pretty=oneline --decorate --date=short --abbrev-commit
+	loggrb = log --graph --pretty=oneline --decorate --date=short --abbrev-commit --branches --remotes
+	logd = log --graph --pretty=format:'%h %ad %an:%s' --date=local --decorate --abbrev-commit
+	logdrb = log --graph --pretty=format:'%h %ad %an:%s' --date=local --decorate --abbrev-commit --branches --remotes
+[color]
+        ui = auto
+[core]
+	quotepath = false
+	editor = vim -c \"set fenc=utf-8\"
+
