@@ -36,3 +36,7 @@ function promps {
 promps
 
 source ~/.git-completion.bash
+
+# init nvm
+export NVM_DIR="${HOME}/.nvm"
+export NVM_SYMLINK_CURRENT=true
