@@ -6,6 +6,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
+alias ll="ls -la"
 
 # git settings
 #source /usr/share/doc/git-1.7.1/contrib/completion/git-completion.bash
